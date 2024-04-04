@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 15px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: orangered;
+  color: white;
+  font-size: 16px;
+  padding: 16px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  background: #42f54b;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
